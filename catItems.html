@@ -242,7 +242,7 @@
 				} else if (searchType == "searchItems") {
 					this.searchType = searchType;
 
-					var keywords = app.getUrlParam("keywords");
+					var keywords = app.getUrlParam("keyWords");
 					if (keywords == null || keywords == undefined || keywords == '') {
 						return;
 					}
@@ -355,7 +355,7 @@
 					// debugger;
 					var serverUrl = app.serverUrl;
 					axios.defaults.withCredentials = true;
-					axios.get(serverUrl + '/items/search?keywords=' + keywords + "&sort=" + sort + "&page=" + page + "&pageSize=" + pageSize, {})
+					axios.get(serverUrl + '/items/search?keyWords=' + keywords + "&sort=" + sort + "&page=" + page + "&pageSize=" + pageSize, {})
 						.then(res => {
 							if (res.data.status == 200) {
 								var grid = res.data.data;
