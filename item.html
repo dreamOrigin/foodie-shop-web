@@ -597,7 +597,7 @@
 						var serverUrl = app.serverUrl;
 						axios.defaults.withCredentials = true;
 						axios.post(
-								serverUrl + '/shopcart/add?userId=' + userInfo.id,
+								serverUrl + '/shopCart/add?userId=' + userInfo.id,
 								shopcartItem, {
 									headers: {
 										'headerUserId': userInfo.id,
