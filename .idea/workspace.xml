@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="19ee5efd-466d-4def-8e29-db24739dfee7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopcart.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopcart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxpay.html" beforeDir="false" afterPath="$PROJECT_DIR$/wxpay.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,12 @@
       <workItem from="1581899081317" duration="6867000" />
       <workItem from="1581986784616" duration="13770000" />
       <workItem from="1582073561138" duration="7654000" />
-      <workItem from="1582104899406" duration="6531000" />
+      <workItem from="1582104899406" duration="6698000" />
+      <workItem from="1582160249331" duration="3409000" />
+      <workItem from="1582200239944" duration="2000" />
+      <workItem from="1582244798555" duration="916000" />
+      <workItem from="1582357435719" duration="1845000" />
+      <workItem from="1582446990243" duration="7111000" />
     </task>
     <task id="LOCAL-00001" summary="完成搜索商品列表">
       <created>1582042464739</created>
@@ -52,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582042464739</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1. 添加购物车相关的一些接口, 标注业务的实现步骤, 以方便后续编写&#10;2. 完成用户的收货地址相关接口">
+      <created>1582120264026</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582120264026</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -60,17 +71,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成搜索商品列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成搜索商品列表" />
+    <MESSAGE value="1. 添加购物车相关的一些接口, 标注业务的实现步骤, 以方便后续编写&#10;2. 完成用户的收货地址相关接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 添加购物车相关的一些接口, 标注业务的实现步骤, 以方便后续编写&#10;2. 完成用户的收货地址相关接口" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="96" key="CommitChangelistDialog2" timestamp="1582042463433">
+    <state x="552" y="177" key="#Notifications" timestamp="1582380471143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="96" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582042463433" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1582042475237">
+    <state x="552" y="177" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1582380471143" />
+    <state x="560" y="96" key="CommitChangelistDialog2" timestamp="1582120262831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582042475237" />
+    <state x="560" y="96" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582120262831" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1582120268189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582120268189" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581867618588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
